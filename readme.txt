@@ -13,6 +13,21 @@ You can Add, Update or Delete posts categories.
 First yoy make a selection of the records you want to change, then you choose new category and the action.
 Thats all, send your request and the changes are made, the program send you direct to the action category.
 
+We have made BatchMove for WP users who are maintain large Wordpress
+implementations.
+
+The exact use is to move a lot of posts to an ohter category, for example
+all post from news category who from for 1 january to archive
+archive->2011 orm category any name you want
+Or just what you want, the different is that this routine can update and
+not just add a post to a category.
+
+It will also remove a category from a list of posts, also if a posts has
+two categories where it belongs to.
+So a post what belongs to news and information, it is possible to remove
+only category news or information, but it also is possible in one action
+to update it just to category achive.
+
 
 == Installation ==
 
@@ -26,7 +41,7 @@ In the menu for post you will find a new entry called Move Categories
 
 == Screenshots ==
 
-1. Front end - Setting. http://www.walchum.info/
+1. Front end - Setting. http://www.walchum.info/plugin/wp-batch-move.jpg
 
 2. Admin question management.
 
