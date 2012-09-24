@@ -29,6 +29,8 @@ only category news or information, but it also is possible in one action
 to update it just to category achive (or what you want).
 A screenshot is found here : http://www.walchum.info/plugin/wp-batch-move.jpg
 
+If using this for the first time, don't forget to make a BACKUP before!
+
 
 == Installation ==
 
