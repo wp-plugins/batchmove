@@ -9,6 +9,7 @@ licensed: under “GPLv2 or later”
 
 == Description ==
 BatchMove is a WP plugin that make it possible to change the category where a post(s) belong to.
+It is a rewrite of the plugin Rob Miller made, it now uses a class for its operations and all parts are separated.
 You can Add, Update or Delete posts categories.
 First you make a selection of the records you want to change, then choose new category and the action.
 Thats all, send your request and the changes are made, the program send you direct to the choosen action category.
@@ -21,6 +22,7 @@ all post from news category who from for 1 january to archive
 archive->2011 or category any name you want.
 Or just what you want, the different is that this routine can update/add/delete
 and not just add a post to a category.
+
 Perhaps the best of this plugin, you are able to select a date range!
 
 It will also remove a category from a list of posts, also if a posts has
@@ -29,6 +31,9 @@ So when a post belongs to news and information, it is possible to remove
 only category news or information, but it also is possible in one action
 to update it just to category achive (or whatever you want).
 A screenshot is found here : "http://www.walchum.info/plugin/wp-batch-move.jpg"
+
+Options are in progress, like selecting a language and set a number of rows.
+At the end of this development we complete this plugin to a really useful archive solution.
 
 If using this for the first time, don't forget to make a BACKUP before!
 
