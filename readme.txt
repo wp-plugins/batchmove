@@ -44,7 +44,7 @@ If neccesary change in config.inc.php the language, to EN/DE/NL
 [Frequently Asked Questions]
 
 == Screenshots ==
-"./wp-batch-move.jpg"
+"assets/wp-batch-move.jpg"
 
 1. Front end - Setting.
 
