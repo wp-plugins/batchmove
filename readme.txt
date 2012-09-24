@@ -4,7 +4,7 @@ Tags:  categories, move, delete, add, post
 Requires at least: 3.0
 Tested up to: 3.4
 Stable tag: 1.0
-Donate link:<a href="mailto:https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ASEL5LAQ6EJL4&lc=NL&amount=10%2e00&currency_code=EUR&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHosted">Donate for my efforts</a>
+Donate link: http://www.walchum.info/private/familie/2009/09/13/212/
 licensed: under “GPLv2 or later”
 
 == Description ==
@@ -43,7 +43,7 @@ If neccesary change in config.inc.php the language, to EN/DE/NL
 == Screenshots ==
 
 1. Front end - Setting.
-http://www.walchum.info/plugin/wp-batch-move.jpg
+link: http://www.walchum.info/plugin/wp-batch-move.jpg
 
 2. Admin question management.
 
