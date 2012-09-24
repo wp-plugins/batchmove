@@ -21,6 +21,7 @@ all post from news category who from for 1 january to archive
 archive->2011 or category any name you want.
 Or just what you want, the different is that this routine can update/add/delete
 and not just add a post to a category.
+Perhaps the best of this plugin, you are able to select a date range!
 
 It will also remove a category from a list of posts, also if a posts has
 two categories where it belongs to.
