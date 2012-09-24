@@ -8,7 +8,7 @@ Donate link: http://www.walchum.info/private/familie/2009/09/13/212/
 licensed: under “GPLv2 or later”
 
 == Description ==
-BatchMove is a WP plugin that make it possible to change easy the category where a post(s) belong to.
+BatchMove is a WP plugin that make it possible to change the category where a post(s) belong to.
 You can Add, Update or Delete posts categories.
 First you make a selection of the records you want to change, then choose new category and the action.
 Thats all, send your request and the changes are made, the program send you direct to the choosen action category.
