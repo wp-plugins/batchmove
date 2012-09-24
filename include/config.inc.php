@@ -13,7 +13,7 @@
  * get_bloginfo('language') not always get the right language
  *
  */
-$language = 'DE';
+$language = 'EN';
 if ($language === 'NL') {
 	define('BM_HEADER', 'Batch Post Category Verplaatsen/Verwijderen');
 	define('BM_FILTER', 'Filter uw data');
