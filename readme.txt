@@ -27,7 +27,7 @@ two categories where it belongs to.
 So when a post belongs to news and information, it is possible to remove
 only category news or information, but it also is possible in one action
 to update it just to category achive (or whatever you want).
-A screenshot is found here : http://www.walchum.info/plugin/wp-batch-move.jpg
+A screenshot is found here : "http://www.walchum.info/plugin/wp-batch-move.jpg"
 
 If using this for the first time, don't forget to make a BACKUP before!
 
