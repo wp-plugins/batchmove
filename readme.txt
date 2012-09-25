@@ -4,7 +4,7 @@ Tags:  categories, move, delete, add, post
 Requires at least: 3.0
 Tested up to: 3.4
 Stable tag: 1.0
-Donate link: http://www.walchum.info/private/familie/2009/09/13/212/
+Donate link: http://www.walchum.info/private/donate/
 licensed: under “GPLv2 or later”
 
 == Description ==
@@ -33,7 +33,7 @@ to update it just to category achive (or whatever you want).
 A screenshot is found here : "http://www.walchum.info/plugin/wp-batch-move.jpg"
 
 Options are in progress, like selecting a language and set a number of rows.
-At the end of this development we complete this plugin to a really useful archive solution.
+At the end of this development we complete this plugin to a realy useful archive solution.
 
 If using this for the first time, don't forget to make a BACKUP before!
 
