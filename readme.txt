@@ -1,6 +1,6 @@
 === Batch-Move wp plugin ===
 Contributors: CS, Walchum.net
-Tags:  categories, move, delete, add, post
+Tags:  categories,batch,bulk,mass,move,delete,add,post,batch update,bulk edit,mass update,mass edit
 Requires at least: 3.0
 Tested up to: 3.4
 Stable tag: 1.0
