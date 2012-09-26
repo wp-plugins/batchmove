@@ -4,11 +4,19 @@ Tags:  admin,administrator,categories,batch,bulk,mass,move,move posts,delete,add
 Requires at least: 3.0
 Tested up to: 3.4
 Stable tag: 1.0
+Plugin URI: http://www.walchum.info/private/donate/
+Description: Formular plugin.
+Author: CS Walchum.net
+Version: 1.0
+Author URI: http://www.walchum.info/private/
 Donate link: http://www.walchum.info/private/donate/
 licensed: under “GPLv2 or later”
 
 == Description ==
 BatchMove is a WP plugin that make it possible to change the category where a post(s) belong to.
+
+Perhaps the best of this plugin, you are able to select a date range!
+
 It is a rewrite of the plugin Rob Miller made, it now uses a class for its operations and all parts are separated.
 You can Add, Update or Delete posts categories.
 First you make a selection of the records you want to change, then choose new category and the action.
@@ -22,8 +30,6 @@ all post from news category who from for 1 january to archive
 archive->2011 or category any name you want.
 Or just what you want, the different is that this routine can update/add/delete
 and not just add a post to a category.
-
-Perhaps the best of this plugin, you are able to select a date range!
 
 It will also remove a category from a list of posts, also if a posts has
 two categories where it belongs to.
@@ -44,12 +50,11 @@ If using this for the first time, don't forget to make a BACKUP before!
 [Installation instruction and configuration]
 Download the zipfile and upload this to your Wordpress website and activate the plugin.
 In the menu for post you will find a new entry called Move Categories
-If neccesary change in config.inc.php the language, to EN/DE/NL
 
 == Frequently Asked Questions ==
 
 [Frequently Asked Questions]
-
+When are Options available: we are working hard to expand the functionality of batch-move
 == Screenshots ==
 "wp-batch-move.jpg"
 
