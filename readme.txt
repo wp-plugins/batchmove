@@ -1,6 +1,6 @@
 === Batch-Move wp plugin ===
 Contributors: CS, Walchum.net
-Tags:  categories,batch,bulk,mass,move,delete,add,post,batch update,bulk edit,mass update,mass edit
+Tags:  admin,administrator,categories,batch,bulk,mass,move,move posts,delete,add,post,posts,batch update,bulk edit,mass update,mass edit
 Requires at least: 3.0
 Tested up to: 3.4
 Stable tag: 1.0
@@ -17,7 +17,7 @@ Thats all, send your request and the changes are made, the program send you dire
 We have made BatchMove for WP users who are maintain large Wordpress
 implementations.
 
-The exact use is to move/ a lot of posts to an ohter category, for example
+The exact use is to move a lot of posts to an ohter category, for example
 all post from news category who from for 1 january to archive
 archive->2011 or category any name you want.
 Or just what you want, the different is that this routine can update/add/delete
@@ -32,7 +32,7 @@ only category news or information, but it also is possible in one action
 to update it just to category achive (or whatever you want).
 A screenshot is found here : "http://www.walchum.info/plugin/wp-batch-move.jpg"
 
-Language files batch-move-en_EN.mo, batch-move-de_DE.mo, batch-move-nl_NL.mo now suported.
+Language files batch-move-en_EN.mo, batch-move-de_DE.mo, batch-move-nl_NL.mo now supported.
 Options are in progress, like set a number of rows.
 At the end of this development we complete this plugin to a realy useful archive solution.
 
