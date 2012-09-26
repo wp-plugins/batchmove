@@ -1,5 +1,5 @@
 <?php
-include BATCH_PLUGIN_DIR . '/include/config.inc.php';
+//include BATCH_PLUGIN_DIR . '/include/config.inc.php';
 /**
  *
  * @version $Id$
@@ -7,7 +7,6 @@ include BATCH_PLUGIN_DIR . '/include/config.inc.php';
  */
 class bag {
     /**
-     * CopyRight © ADE-Solutions.nl
      * Author developer
      * Date created 24-2-2010
      *

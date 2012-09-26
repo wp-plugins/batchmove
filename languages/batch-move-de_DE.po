@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Batch-Move 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-26 10:23+0100\n"
+"PO-Revision-Date: 2012-09-26 10:25+0100\n"
+"Last-Translator: C Stoltenkamp <cees@walchum.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: C:\\Data\\werk\\wamp\\www\\wordpress\\wp-content\\plugins\\batch-move\n"
+"X-Poedit-SearchPath-1: ../plugins/batch-move\n"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:16
+msgid "Batch Post Category Move/Removed"
+msgstr "Stapel Nachrichten Kategorie Move / Entfernt"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:17
+msgid "Filter data"
+msgstr "Filtern von Daten"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:18
+msgid "Move categories"
+msgstr "Kategorien ersetzen"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:21
+msgid "Rows"
+msgstr "Zeilen"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:22
+msgid "Sorted by"
+msgstr "Sortiert nach"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:23
+msgid "Asc or Desc"
+msgstr "Auf oder absteigend"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:24
+msgid "Catogory"
+msgstr "Kategorie"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:25
+msgid "Keyword"
+msgstr "Stichwort"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:26
+msgid "Tag"
+msgstr "Tag"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:27
+msgid "Date from"
+msgstr "Datum von"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:28
+msgid "Datum to"
+msgstr "Datum auf"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:29
+msgid "To get started select some criteria"
+msgstr "Um loszulegen w&auml;hlen Sie einige Kriterien"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:30
+msgid "Activate filter"
+msgstr "Filter aktivieren"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:31
+msgid "Send"
+msgstr "Senden"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:33
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:34
+msgid "Date format YEAR-MONTH-DAY like 2010-08-30"
+msgstr "Datumsformat Jahr-Monat-Tag wie 2010-08-30"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:35
+#, php-format
+msgid "Use % for wildcards."
+msgstr "Verwenden Sie% für Wildcards."
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:36
+msgid "'foo, bar': posts tagged with 'foo' or 'bar'. 'foo+bar': posts tagged with both 'foo' and 'bar'."
+msgstr "'foo, bar': Beitr&auml;ge getaggt mit 'foo' or 'bar'. 'foo+bar': Beitr&auml;ge sowohl getaggt 'foo' and 'bar'."
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:38
+msgid "Author"
+msgstr "Autor"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:39
+msgid "Date Posted"
+msgstr "Datum der Ver&ouml;ffentlichung"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:40
+msgid "Date Modified"
+msgstr "&#195;nderungsdatum"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:41
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:67
+msgid "Title"
+msgstr "Titel"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:42
+msgid "Status"
+msgstr "Status"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:45
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:46
+msgid "Descending"
+msgstr "Absteigend"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:49
+msgid "Previous"
+msgstr "Fr&uuml;her"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:50
+msgid "Next"
+msgstr "N&auml;chste"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:52
+msgid "Looked for posts in,"
+msgstr "Sah f&uuml;r Stellen in,"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:53
+msgid "with Tag "
+msgstr "mit Tag "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:54
+msgid "ordered by "
+msgstr "sortiert nach "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:55
+msgid "Asc or Desc "
+msgstr "Auf order Ab-steigend"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:56
+msgid "found in "
+msgstr "gefunden in "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:57
+msgid "posts "
+msgstr "Beitr&auml;ge "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:58
+msgid "displayed "
+msgstr "angezeigt "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:59
+msgid "per page "
+msgstr "pro Seite "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:60
+msgid "all "
+msgstr "alle "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:61
+msgid "none "
+msgstr "kein"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:62
+msgid "For this operation, you have insufficient rights "
+msgstr "F&uuml;r diesen Vorgang m&uuml;ssen Sie ausreichende Rechte haben "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:65
+msgid "ID"
+msgstr "ID"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:66
+msgid "Date"
+msgstr "Datum"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:68
+msgid "Categories"
+msgstr "Kategorien"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:69
+msgid "Tags"
+msgstr "Tags"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:70
+msgid "Actions"
+msgstr "Aktionen "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:72
+msgid "Aktion "
+msgstr "Aktion "
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:73
+msgid "Add"
+msgstr "Hinzuf&uuml;gen"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:74
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/config.inc.php:75
+msgid "Delete"
+msgstr "L&ouml;schen"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/functions.php:341
+msgid "Unpublished"
+msgstr "Unver&ouml;ffentlicht"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/functions.php:344
+#, php-format
+msgid "%s ago"
+msgstr "%s vor"
+
+#: C:\Data\werk\wamp\www\wordpress\wp-content\plugins\batch-move/include/functions.php:346
+msgid "Y/m/d"
+msgstr "Y/m/d"
+

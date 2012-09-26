@@ -1,5 +1,6 @@
 <?php
-include BATCH_PLUGIN_DIR . '/include/config.inc.php';
+//include_once(BATCH_PLUGIN_DIR . '/include/config.inc.php');
+//include BATCH_PLUGIN_DIR . '/include/config.inc.php';
 
 function execute_action(batchMove $bm, $apost=array()){
 	//$_SERVER

@@ -15,6 +15,7 @@ Author: CS Walchum.net
 Version: 1.0
 Author URI: http://www.walchum.net
 */
+
 // Link in het admin menu
 if ( ! defined( 'BATCH_PLUGIN_BASENAME' ) )
 	define( 'BATCH_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
@@ -30,7 +31,40 @@ if ( ! defined( 'BATCH_PLUGIN_URL' ) )
 function batch_plugin_path( $path = '' ) {
 	return path_join( BATCH_PLUGIN_DIR, trim( $path, '/' ) );
 }
+/**
+ * Set language file
+ *
+ */
+
+load_plugin_textdomain('batch-move', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+/**
+ * include some configuration, classes and functions
+ *
+ */
+
 include_once('include/config.inc.php');
+include_once('include/classes.php');
+include_once('include/functions.php');
+
+/**
+ * Create new batchMove class
+ *
+ * Structure who has all information
+ *
+ */
+$bm = new batchMove;
+/**
+ * Set many language strings
+ *
+ */
+$bm->orderbydef = $orderbysLng;//start all defined in config.inc.php and *.mo files
+$bm->orderdef = $orderLng;
+$bm->frmlabels = $formLabels;
+$bm->frmhelp = $formHelp;
+$bm->pageing = $pageing;
+$bm->information = $information;
+$bm->ret_head = $ret_head;
+$bm->action = $actions;// end config defined
 
 function batch_plugin_url( $path = '' ) {
 	return plugins_url( $path, BATCH_PLUGIN_BASENAME );

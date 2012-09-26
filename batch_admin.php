@@ -7,28 +7,8 @@
  * @copyright 2012
  */
 
-include_once('include/classes.php');
-include_once('include/functions.php');
-
 echo '<h1>'.BM_HEADER.'</h1>';
-/**
- * Create new batchMove class
- *
- */
-$bm = new batchMove;
-/**
- * Set many language strings
- *
- */
-
-$bm->orderbydef = $orderbysLng;//start all defined in config.inc.php
-$bm->orderdef = $orderLng;
-$bm->frmlabels = $formLabels;
-$bm->frmhelp = $formHelp;
-$bm->pageing = $pageing;
-$bm->information = $information;
-$bm->ret_head = $ret_head;
-$bm->action = $actions;// end config defined
+global $bm;
 /**
  * Post values
  *

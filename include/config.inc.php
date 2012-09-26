@@ -13,191 +13,65 @@
  * get_bloginfo('language') not always get the right language
  *
  */
-$language = 'EN';
-if ($language === 'NL') {
-	define('BM_HEADER', 'Batch Post Category Verplaatsen/Verwijderen');
-	define('BM_FILTER', 'Filter uw data');
-	$application = 'Verplaats categorien';
-	$formLabels =
-		array(
-			'rows' 			=> 'Regels',
-			'sortby' 		=> 'Gesorteerd op',
-			'desc' 			=> 'Op of aflopend',
-			'category' 		=> 'Category',
-			'keyword' 		=> 'Key-woord',
-			'tag' 			=> 'Tag',
-			'postedfrom'	=> 'Datum van',
-			'postedto'		=> 'Datum tot',
-			'criteria' 		=> 'Kies voor start gewenste filter criteria',
-			'submitquery' 	=> 'Activeer filter',
-			'send' 			=> 'Verzenden');
-	$formHelp = array(
-			'postedfrom'    => 'Datum formaat Jaar-Maand-Dag zoals 2010-08-30',
-			'postedto'    	=> 'Datum formaat Jaar-Maand-Dag zoals 2010-08-30',
-			'keyword'		=> 'Gebruik % als wildcards.',
-			'tag'			=> '\'foo, bar\': posts tag is \'foo\' of \'bar\'. \'foo+bar\': posts tag met beiden \'foo\' en \'bar\'.'
-			);
-	$orderbysLng =
-		array(
-			'post_author' 	  => 'Autheur',
-			'post_date' 	  => 'Datum bericht',
-			'post_modified'   => 'Datum wijzeging',
-			'post_title' 	  => 'Titel bericht',
-			'post_status'	  => 'Status bericht');
-	$orderLng =
-		array(
-			'asc'	=> 'Oplopend',
-			'desc'	=> 'Aflopend');
-	$pageing =
-		array(
-			'prev'  => 'Vorig',
-			'next'  => 'Volgende');
-	$information = array(
-			'lookedforpost' => 'Gezocht in berichten ',
-			'taggedwith' => 'met Tag ',
-			'orderedby' => 'op volgorde ',
-			'descendig' => 'op of aflopend ',
-			'found' => 'gevonden in ',
-			'posts' => 'berichten ',
-			'displayed' => 'getoond ',
-			'perpage' => 'per pagina ',
-			'any' => 'allemaal',
-			'none' => 'geen',
-			'noright' => 'Voor deze handeling heeft U onvoldoende rechten ');
-	$ret_head = array(
-			'id' => 'ID',
-			'date' => 'Datum',
-			'title' => 'Titel',
-			'categories' => 'Categorien',
-			'tags' => 'Tags',
-			'actions' => 'Acties');
-	$actions = array(
-			'action' => 'Aktie ',
-			'add' => 'Toevoegen ',
-			'upd' => 'Wijzigen ',
-			'del' => 'Verwijderen ');
-} elseif ($language === 'DE') {
-	define('BM_HEADER', 'Stapel Nachrichten Kategorie Move / Entfernt');
-	define('BM_FILTER', 'Filtern daten');
-	$application = 'Kategorie verschieben';
-	$formLabels =
-		array(
-			'rows' 			=> 'Zeilen',
-			'sortby' 		=> 'Sortiert nach',
-			'desc' 			=> 'Auf oder absteigend',
-			'category' 		=> 'Kategorie',
-			'keyword' 		=> 'Stichwort',
-			'tag' 			=> 'Tag',
-			'postedfrom'	=> 'Datum von',
-			'postedto'		=> 'Datum auf',
-			'criteria' 		=> 'Um loszulegen w&auml;hlen Sie einige Kriterien',
-			'submitquery' 	=> 'Filter aktivieren',
-			'send' 			=> 'Senden');
-	$formHelp = array(
-			'postedfrom'    => 'Datumsformat Jahr-Monat-Tag wie 2010-08-30',
-			'postedto'    	=> 'Datumsformat Jahr-Monat-Tag wie 2010-08-30',
-			'keyword'		=> 'Verwenden Sie% für Wildcards.',
-			'tag'			=> '\'foo, bar\': Beitr&auml;ge getaggt mit \'foo\' or \'bar\'. \'foo+bar\': Beitr&auml;ge sowohl getaggt \'foo\' and \'bar\'.'
-			);
-	$orderbysLng = array(
-			'post_author'	=> 'Autor',
-			'post_date'		=> 'Datum der Ver&ouml;ffentlichung',
-			'post_modified'	=> '&#195;nderungsdatum',
-			'post_title'	=> 'Titel',
-			'post_status'	=> 'Status');
-	$orderLng =
-		array(
-			'asc'	=> 'Aufsteigend',
-			'desc'  => 'Absteigend');
-	$pageing =
-		array(
-			'prev'  => 'Fr&uuml;her',
-			'next'  => 'N&auml;chste');
-	$information = array(
-			'lookedforpost' => 'Sah f&uuml;r Stellen in,',
-			'taggedwith' => 'mit Tag ',
-			'orderedby' => 'sortiert nach ',
-			'descendig' => 'Asc oder Desc ',
-			'found' => 'gefunden in ',
-			'posts' => 'Beitr&auml;ge ',
-			'displayed' => 'angezeigt ',
-			'perpage' => 'pro Seite ',
-			'any' => 'allemaal',
-			'none' => 'geen',
-			'noright' => 'F&uuml;r diesen Vorgang m&uuml;ssen Sie ausreichende Rechte haben ');
-	$ret_head = array(
-			'id' => 'ID',
-			'date' => 'Datum',
-			'title' => 'Titel',
-			'categories' => 'Kategorien',
-			'tags' => 'Tags',
-			'actions' => 'Aktionen');
-	$actions = array(
-			'action' => 'Aktion ',
-			'add' => 'Hinzuf&uuml;gen',
-			'upd' => 'Aktualisieren',
-			'del' => 'L&ouml;schen');
-} else {
-	define('BM_HEADER', __('Batch Post Category Move/Removed'));
-	define('BM_FILTER', 'Filter data');
-	$application = 'Move categories';
-	$formLabels =
-		array(
-			'rows' 			=> 'Rows',
-			'sortby' 		=> 'Sorted by',
-			'desc' 			=> 'Asc or Desc',
-			'category' 		=> 'Catogory',
-			'keyword' 		=> 'Keyword',
-			'tag' 			=> 'Tag',
-			'postedfrom'	=> 'Date from',
-			'postedto'		=> 'Datum to',
-			'criteria' 		=> 'To get started select some criteria',
-			'submitquery' 	=> 'Activate filter',
-			'send' 			=> 'Send');
-	$formHelp = array(
-			'postedfrom'    => 'Date format YEAR-MONTH-DAY like 2010-08-30',
-			'postedto'    	=> 'Date format YEAR-MONTH-DAY like 2010-08-30',
-			'keyword'		=> 'Use % for wildcards.',
-			'tag'			=> '\'foo, bar\': posts tagged with \'foo\' or \'bar\'. \'foo+bar\': posts tagged with both \'foo\' and \'bar\'.'
-			);
-	$orderbysLng = array(
-			'post_author'	=> 'Author',
-			'post_date'		=> 'Date Posted',
-			'post_modified'	=> 'Date Modified',
-			'post_title'	=> 'Title',
-			'post_status'	=> 'Status');
-	$orderLng =
-		array(
-			'asc'	=> 'Ascending',
-			'desc'  => 'Descending');
-	$pageing =
-		array(
-			'prev'  => 'Previous',
-			'next'  => 'Next');
-	$information = array(
-			'lookedforpost' => 'Looked for posts in,',
-			'taggedwith' => 'with Tag ',
-			'orderedby' => 'ordered by ',
-			'descendig' => 'Asc or Desc ',
-			'found' => 'found in ',
-			'posts' => 'posts ',
-			'displayed' => 'displayed ',
-			'perpage' => 'per page ',
-			'any' => 'all ',
-			'none' => 'none ',
-			'noright' => 'For this operation, you have insufficient rights ');
+define('BM_HEADER', __('Batch Post Category Move/Removed', 'batch-move'));
+define('BM_FILTER', __('Filter data', 'batch-move'));
+$application = __('Move categories', 'batch-move');
+$formLabels =
+	array(
+		'rows' 			=> __('Rows', 'batch-move'),
+		'sortby' 		=> __('Sorted by', 'batch-move'),
+		'desc' 			=> __('Asc or Desc', 'batch-move'),
+		'category' 		=> __('Catogory', 'batch-move'),
+		'keyword' 		=> __('Keyword', 'batch-move'),
+		'tag' 			=> __('Tag', 'batch-move'),
+		'postedfrom'	=> __('Date from', 'batch-move'),
+		'postedto'		=> __('Datum to', 'batch-move'),
+		'criteria' 		=> __('To get started select some criteria', 'batch-move'),
+		'submitquery' 	=> __('Activate filter', 'batch-move'),
+		'send' 			=> __('Send', 'batch-move'));
+$formHelp = array(
+		'postedfrom'    => __('Date format YEAR-MONTH-DAY like 2010-08-30', 'batch-move'),
+		'postedto'    	=> __('Date format YEAR-MONTH-DAY like 2010-08-30', 'batch-move'),
+		'keyword'		=> __('Use % for wildcards.'),
+		'tag'			=> __('\'foo, bar\': posts tagged with \'foo\' or \'bar\'. \'foo+bar\': posts tagged with both \'foo\' and \'bar\'.', 'batch-move'));
+$orderbysLng = array(
+		'post_author'	=> __('Author', 'batch-move'),
+		'post_date'		=> __('Date Posted', 'batch-move'),
+		'post_modified'	=> __('Date Modified', 'batch-move'),
+		'post_title'	=> __('Title', 'batch-move'),
+		'post_status'	=> __('Status', 'batch-move'));
+$orderLng =
+	array(
+		'asc'			=> __('Ascending', 'batch-move'),
+		'desc'  		=> __('Descending', 'batch-move'));
+$pageing =
+	array(
+		'prev'  		=> __('Previous', 'batch-move'),
+		'next'  		=> __('Next', 'batch-move'));
+$information = array(
+		'lookedforpost' => __('Looked for posts in,', 'batch-move'),
+		'taggedwith' 	=> __('with Tag ', 'batch-move'),
+		'orderedby' 	=> __('ordered by ', 'batch-move'),
+		'descendig' 	=> __('Asc or Desc ', 'batch-move'),
+		'found' 		=> __('found in ', 'batch-move'),
+		'posts' 		=> __('posts ', 'batch-move'),
+		'displayed' 	=> __('displayed ', 'batch-move'),
+		'perpage' 		=> __('per page ', 'batch-move'),
+		'any' 			=> __('all ', 'batch-move'),
+		'none' 			=> __('none ', 'batch-move'),
+		'noright' 		=> __('For this operation, you have insufficient rights ', 'batch-move'));
 
-	$ret_head = array(
-			'id' => 'ID',
-			'date' => 'Date',
-			'title' => 'Title',
-			'categories' => 'Categories',
-			'tags' => 'Tags',
-			'actions' => 'Actions');
-	$actions = array(
-			'action' => 'Aktion ',
-			'add' => 'Add',
-			'upd' => 'Update',
-			'del' => 'Delete');
-}
+$ret_head = array(
+		'id' 			=> __('ID', 'batch-move'),
+		'date' 			=> __('Date', 'batch-move'),
+		'title' 		=> __('Title', 'batch-move'),
+		'categories' 	=> __('Categories', 'batch-move'),
+		'tags' 			=> __('Tags', 'batch-move'),
+		'actions' 		=> __('Actions', 'batch-move'));
+$actions = array(
+		'action' 		=> __('Aktion ', 'batch-move'),
+		'add' 			=> __('Add', 'batch-move'),
+		'upd' 			=> __('Update', 'batch-move'),
+		'del' 			=> __('Delete', 'batch-move'));
+
 ?>
