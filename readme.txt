@@ -32,7 +32,8 @@ only category news or information, but it also is possible in one action
 to update it just to category achive (or whatever you want).
 A screenshot is found here : "http://www.walchum.info/plugin/wp-batch-move.jpg"
 
-Options are in progress, like selecting a language and set a number of rows.
+Language files batch-move-en_EN.mo, batch-move-de_DE.mo, batch-move-nl_NL.mo now suported.
+Options are in progress, like set a number of rows.
 At the end of this development we complete this plugin to a realy useful archive solution.
 
 If using this for the first time, don't forget to make a BACKUP before!
