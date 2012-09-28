@@ -8,12 +8,12 @@
  */
 
 /*
-Plugin Name: batch-move
-Plugin URI:
-Description: Batch-Moving Posts plugin.
-Author: CS Walchum.net
-Version: 1.0
-Author URI: http://www.walchum.net
+   Plugin Name: batch-move
+   Plugin URI:
+   Description: Batch-Moving Posts plugin.
+   Author: CS Walchum.net
+   Version: 1.0
+   Author URI: http://www.walchum.net
 */
 
 // Link in het admin menu
@@ -77,16 +77,9 @@ function batch_plugin_url( $path = '' ) {
 //register_deactivation_hook( __FILE__, 'batch_remove' );
 
 function batch_install() {
-/* Creates new database field */
-//	add_option('de_factuur_default','yes','','yes');
-//	add_option('de_factuur_db','no','','yes');
 }
 
 function batch_remove() {
-/* Deletes the database field */
-//	delete_option('de_factuur_data');
-//	delete_option('de_factuur_default');
-//	delete_option('de_factuur_db');
 }
 
 
@@ -113,14 +106,14 @@ function wp_batch_actions(){
 add_action('admin_menu', 'wp_batch_actions');//
 
 /*
-function wp_batch(){
-	include('batch-show.php');
-}
-function wp_batch_actions(){
-    //to set initial values
-	add_options_page("Options","Options","", "batch-show","wp_batch" );
-}
-add_action('admin_menu', 'wp_batch_options');
+   function wp_batch(){
+   include('batch-show.php');
+   }
+   function wp_batch_actions(){
+   //to set initial values
+   add_options_page("Options","Options","", "batch-show","wp_batch" );
+   }
+   add_action('admin_menu', 'wp_batch_options');
 */
 
 

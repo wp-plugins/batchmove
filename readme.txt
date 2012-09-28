@@ -58,7 +58,9 @@ When are Options available: we are working hard to expand the functionality of b
 == Screenshots ==
 "wp-batch-move.jpg"
 
-1. Front end - Setting.
+1. Setting.
+!! Whatout plugin is not for netwerk installation, you have to activate the plugin for each website !!
+
 
 2. Admin question management.
 

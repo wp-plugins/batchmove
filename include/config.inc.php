@@ -35,11 +35,11 @@ $formHelp = array(
 		'keyword'		=> __('Use % for wildcards.'),
 		'tag'			=> __('\'foo, bar\': posts tagged with \'foo\' or \'bar\'. \'foo+bar\': posts tagged with both \'foo\' and \'bar\'.', 'batch-move'));
 $orderbysLng = array(
-		'post_author'	=> __('Author', 'batch-move'),
-		'post_date'		=> __('Date Posted', 'batch-move'),
-		'post_modified'	=> __('Date Modified', 'batch-move'),
-		'post_title'	=> __('Title', 'batch-move'),
-		'post_status'	=> __('Status', 'batch-move'));
+		'date'			=> __('Date Posted', 'batch-move'),
+		'modified'		=> __('Date Modified', 'batch-move'),
+		'author'		=> __('Author', 'batch-move'),
+		'title'			=> __('Title', 'batch-move'),
+		'status'		=> __('Status', 'batch-move'));
 $orderLng =
 	array(
 		'asc'			=> __('Ascending', 'batch-move'),
