@@ -33,7 +33,7 @@ function execute_action(batchMove $bm, $apost=array()){
 					case 'upd':
 						foreach ((array) $apost['ids'] as $id) {
 							$new = array();
-							$new[] = $cat;
+							$new[] = intval($cat);
 							wp_set_post_categories($id, (array) $new);
 						}
 							break;
@@ -44,7 +44,7 @@ function execute_action(batchMove $bm, $apost=array()){
 							$new = array();
 							foreach ((array) $existing as $_cat) {
 								if ($cat != $_cat)
-									$new[] = $_cat;
+									$new[] = intval($_cat);
 							}
 							wp_set_post_categories($id, (array) $new);
 						}
