@@ -42,9 +42,15 @@ load_plugin_textdomain('batch-move', false, dirname( plugin_basename( __FILE__ )
  *
  */
 
-include_once('include/config.inc.php');
-include_once('include/classes.php');
-include_once('include/functions.php');
+include_once(BATCH_PLUGIN_DIR.'/include/config.inc.php');
+include_once(BATCH_PLUGIN_DIR.'/include/classes.php');
+include_once(BATCH_PLUGIN_DIR.'/include/functions.php');
+/**
+ * This was not neccesary but now it must be done
+ *
+ */
+create_initial_taxonomies();
+
 
 /**
  * Create new batchMove class
@@ -52,6 +58,7 @@ include_once('include/functions.php');
  * Structure who has all information
  *
  */
+
 $bm = new batchMove;
 /**
  * Set many language strings
@@ -65,6 +72,23 @@ $bm->pageing = $pageing;
 $bm->information = $information;
 $bm->ret_head = $ret_head;
 $bm->action = $actions;// end config defined
+if (empty($bm->get['row_amount'])) {//empty get fields
+	if ($ra = get_option('bm_row_amount')) {//get option
+		$bm->per_page = $ra;//option value
+	} else {//there is nothing, take default
+		$bm->per_page = 15;//default
+	}
+} else {
+	if ($ra = get_option('bm_row_amount')) {//not empty get fields
+		if ($bm->get['row_amount']!=$ra) {//new value
+			update_option('bm_row_amount', $bm->get['row_amount']);
+		}
+	} else {//there is a value, but no option set
+		add_option('bm_row_amount', $bm->get['row_amount'],'','yes');
+	}
+	//get value from get field
+	$bm->per_page = $bm->get['row_amount'];
+}
 
 function batch_plugin_url( $path = '' ) {
 	return plugins_url( $path, BATCH_PLUGIN_BASENAME );

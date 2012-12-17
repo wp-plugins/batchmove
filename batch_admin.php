@@ -9,11 +9,13 @@
 
 echo '<h1>'.BM_HEADER.'</h1>';
 global $bm;
+global $wp_taxonomies;
+
 /**
  * Post values
  *
  */
-execute_action($bm, $_POST);
+execute_action($bm, $_REQUEST);
 
 /**
  * Echo form to filter data

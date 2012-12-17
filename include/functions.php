@@ -307,7 +307,7 @@ function get_results(batchMove $bm, $q_posts){													//action.php
 			</tr>';
 	$html .= '<tbody>';
 	foreach ( (array) $q_posts as $post ) {
-
+//		$categories = get_categories('type=post&hide_empty=0');
 		$categories = wp_get_post_categories($post->ID);
 		$cats = '';
 		$comma = false;
@@ -350,7 +350,7 @@ function get_results(batchMove $bm, $q_posts){													//action.php
 					<td>' . $post->post_title . '</td>
 					<td>' . $cats . '</td>
 					<td>' . $tags . '</td>
-					<td><a href="' . get_permalink($post->ID) . '">View</a></td>
+					<td><a href="' . get_permalink($post->ID) . '" target="_blank">View</a></td>
 					<td><a href="post.php?action=edit&post=' . $post->ID . '">Edit</a></td>
 				</tr>
 		';

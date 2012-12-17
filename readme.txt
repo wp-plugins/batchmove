@@ -5,17 +5,26 @@ Requires at least: 3.0
 Tested up to: 3.4
 Stable tag: 1.0
 Plugin URI: http://www.walchum.info/private/donate/
-Description: Formular plugin.
+Description: Batch plugin.
 Author: CS Walchum.net
 Version: 1.0
 Author URI: http://www.walchum.info/private/
 Donate link: http://www.walchum.info/private/donate/
-licensed: under “GPLv2 or later”
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 BatchMove is a WP plugin that make it possible to change the category where a post(s) belong to.
+The main features are:
 
-Perhaps the best of this plugin, you are able to select a date range!
+1. Assign the selected categories to posts.
+1. Append the selected categories to posts.
+1. Delete the selected categories from posts.
+1. Operating manners which come up with people’s common practice.
+1. Configurable number of posts listed in one page.
+1. Enough searching and sorting options.
+1. You are able to select a date range!
+1. More in the future.
 
 It is a rewrite of the plugin Rob Miller made, it now uses a class for its operations and all parts are separated.
 You can Add, Update or Delete posts categories.
@@ -32,7 +41,7 @@ Or just what you want, the different is that this routine can update/add/delete
 and not just add a post to a category.
 
 It will also remove a category from a list of posts, also if a posts has
-two categories where it belongs to.
+two or more categories where it belongs to.
 So when a post belongs to news and information, it is possible to remove
 only category news or information, but it also is possible in one action
 to update it just to category achive (or whatever you want).
@@ -50,6 +59,7 @@ If using this for the first time, don't forget to make a BACKUP before!
 [Installation instruction and configuration]
 Download the zipfile and upload this to your Wordpress website and activate the plugin.
 In the menu for post you will find a new entry called Move Categories
+The plugin is now for netwerk installation, you dont have to activate the plugin for each website!
 
 == Frequently Asked Questions ==
 
@@ -59,8 +69,6 @@ When are Options available: we are working hard to expand the functionality of b
 "wp-batch-move.jpg"
 
 1. Setting.
-!! Whatout plugin is not for netwerk installation, you have to activate the plugin for each website !!
-
 
 2. Admin question management.
 
@@ -72,4 +80,6 @@ First version.
 
 3.3.2
 
-Tested upto 3.4
+Tested upto 3.5
+== Changelog ==
+No changes yet

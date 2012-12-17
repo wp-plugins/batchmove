@@ -104,31 +104,27 @@ class batchMove extends bag {
 			$information=array(),$ret_head=array();
 	private $request, $data=array(), $filter, $actions=array();
 	public function __CONSTRUCT(){
-		if ($_POST) {
-			foreach ($_POST as $value) {
-				$value = filter_var($value, FILTER_SANITIZE_STRING,!FILTER_FLAG_STRIP_LOW);//no shit
-			}
-			$this->get = stripslashes_deep($_POST);
-		} elseif ($_GET) {
-			foreach ($_GET as $value) {
+
+		if ($_REQUEST) {
+			foreach ($_REQUEST as $value) {
 				$value = filter_var($value, FILTER_SANITIZE_STRING,!FILTER_FLAG_STRIP_LOW );//no shit
 			}
 			$this->get = stripslashes_deep($_GET);//edit.php?page=batch_categories&cat=%s
-		}
-		if ($_GET || $_POST) {
 			$this->_url_page['admin'] = 'edit?page=batchadmin';
 			$this->_url_page['category'] = 'edit?page=batchadmin&cat=%s';
 			$this->_url_page['keyword'] = 'edit?page=batchadmin&s=%s';
 			$this->_url_page['tag'] = 'edit?page=batchadmin&t=%s';
 
- 			$cat = (empty($this->get['qcat']))
-			 ?get_cat_name(intval($this->get['cat']))
-			 :get_cat_name(intval($this->get['qcat']));
+ 			if (empty($this->get['qcat'])) {
+ 				$cat = get_cat_name(intval($this->get['cat']));
+ 			} else {
+ 				get_cat_name(intval($this->get['qcat']));
+ 			}
 
 			$this->cat = empty($cat) ? '' : $cat;
 			$this->keyword = empty($this->get['keyword']) ? '' : $this->keyword;
 			$this->tag = empty($this->get['tag']) ? '' : $this->tag;
-			$this->per_page = empty($this->get['row_amount']) ? 15 : intval($this->get['row_amount']);
+			//$this->per_page = empty($this->get['row_amount']) ? 15 : intval($this->get['row_amount']);
 			$this->orderby = empty($this->get['orderby']) ? 'post_date' : $this->get['orderby'];
 			$this->order = empty($this->get['order']) ? 'desc' : $this->get['order'];
 			$this->paged = empty($this->get['paged']) ? 1 : intval($this->get['paged']);
