@@ -49,7 +49,7 @@ include_once(BATCH_PLUGIN_DIR.'/include/functions.php');
  * This was not neccesary but now it must be done
  *
  */
-//create_initial_taxonomies();
+create_initial_taxonomies();
 
 
 /**
