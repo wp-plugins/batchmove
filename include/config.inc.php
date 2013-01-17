@@ -15,6 +15,7 @@
  */
 define('BM_HEADER', __('Batch Post Category Move/Removed', 'batch-move'));
 define('BM_FILTER', __('Filter data', 'batch-move'));
+define('USERLEVEL', 'level_7');
 $application = __('Move categories', 'batch-move');
 $formLabels =
 	array(

@@ -3,11 +3,11 @@ Contributors: CS, Walchum.net
 Tags:  admin,administrator,categories,batch,bulk,mass,move,move posts,delete,add,post,posts,batch update,bulk edit,mass update,mass edit
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.1
+Stable tag: 1.0
 Plugin URI: http://www.walchum.info/private/donate/
 Description: Batch plugin.
 Author: CS Walchum.net
-Version: 1.1
+Version: 1.0
 Author URI: http://www.walchum.info/private/
 Donate link: http://www.walchum.info/private/donate/
 License: GPLv2 or later

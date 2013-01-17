@@ -1,10 +1,10 @@
 <?php
-include BATCH_PLUGIN_DIR . '/include/config.inc.php';
+//include BATCH_PLUGIN_DIR . '/include/config.inc.php';
 
 function execute_action(batchMove $bm, $apost=array()){
 	//$_SERVER
 	$do = strpos($_SERVER['HTTP_REFERER'],'page=batchadmin')>0;
-	if (!current_user_can('level_7')) {
+	if (!current_user_can(USERLEVEL)) {
 		die (__($bm->information['noright']));
 	} else {
 		if ( !empty($apost) && $do ) {

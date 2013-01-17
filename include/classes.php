@@ -109,7 +109,7 @@ class batchMove extends bag {
 			foreach ($_REQUEST as $value) {
 				$value = filter_var($value, FILTER_SANITIZE_STRING,!FILTER_FLAG_STRIP_LOW );//no shit
 			}
-			$this->get = stripslashes_deep($_GET);//edit.php?page=batch_categories&cat=%s
+			$this->get = stripslashes_deep($_REQUEST);//edit.php?page=batch_categories&cat=%s
 			$this->_url_page['admin'] = 'edit?page=batchadmin';
 			$this->_url_page['category'] = 'edit?page=batchadmin&cat=%s';
 			$this->_url_page['keyword'] = 'edit?page=batchadmin&s=%s';
@@ -118,7 +118,7 @@ class batchMove extends bag {
  			if (empty($this->get['qcat'])) {
  				$cat = get_cat_name(intval($this->get['cat']));
  			} else {
- 				get_cat_name(intval($this->get['qcat']));
+ 				$cat = get_cat_name(intval($this->get['qcat']));
  			}
 
 			$this->cat = empty($cat) ? '' : $cat;

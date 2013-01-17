@@ -49,7 +49,7 @@ include_once(BATCH_PLUGIN_DIR.'/include/functions.php');
  * This was not neccesary but now it must be done
  *
  */
-create_initial_taxonomies();
+//create_initial_taxonomies();
 
 
 /**
@@ -125,7 +125,7 @@ function wp_batch_actions(){
 	 * Function who is fired (wp_batch_admin)
 	 *
 	 */
-	add_posts_page($application, $application, "editor", "batchadmin", "wp_batch_admin");
+	add_posts_page($application, $application, USERLEVEL, "batchadmin", "wp_batch_admin");
 }
 add_action('admin_menu', 'wp_batch_actions');//
 
