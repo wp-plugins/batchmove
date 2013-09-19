@@ -7,7 +7,7 @@ Stable tag: 1.0
 Plugin URI: http://www.walchum.info/private/donate/
 Description: Batch plugin.
 Author: CS Walchum.net
-Version: 1.0
+Version: 1.1
 Author URI: http://www.walchum.info/private/
 Donate link: http://www.walchum.info/private/blog/category/wordpress/
 License: GPLv2 or later
