@@ -9,7 +9,7 @@ Description: Batch plugin.
 Author: CS Walchum.net
 Version: 1.0
 Author URI: http://www.walchum.info/private/
-Donate link: http://www.walchum.info/private/donate/
+Donate link: http://www.walchum.info/private/blog/category/wordpress/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
