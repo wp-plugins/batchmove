@@ -12,7 +12,7 @@
    Plugin URI:
    Description: Batch-Moving Posts plugin.
    Author: CS Walchum.net
-   Version: 1.0
+   Version: 1.1
    Author URI: http://www.walchum.net
 */
 
