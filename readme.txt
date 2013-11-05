@@ -4,12 +4,12 @@ Tags:  admin,administrator,categories,batch,bulk,mass,move,move posts,delete,add
 Requires at least: 3.0
 Tested up to: 3.6
 Stable tag: 1.0
-Plugin URI: http://www.walchum.info/private/donate/
+Plugin URI: http://www.walchum.info/private/blog/batchmove/
 Description: Batch plugin.
 Author: CS Walchum.net
 Version: 1.1
 Author URI: http://www.walchum.info/private/
-Donate link: http://www.walchum.info/private/blog/category/wordpress/
+Donate link: http://www.walchum.info/private/blog/batchmove/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,6 +80,8 @@ First version.
 
 3.3.2
 
-Tested upto 3.5
+Tested upto 3.6
 == Changelog ==
 No changes yet
+
+Tag selection bug resolved
