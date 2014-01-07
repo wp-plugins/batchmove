@@ -1,12 +1,12 @@
-=== Batch-Move wp plugin ===
-Contributors: CS, Walchum.net
-Tags:  admin,administrator,categories,batch,bulk,mass,move,move posts,delete,add,post,posts,batch update,bulk edit,mass update,mass edit
+=== Batch-Move Posts wp plugin ===
+Contributors: CS, Walchum.net and ABS-Hosting.nl
+Tags:  admin,administrator,categories,batch,bulk,bulk move, mass,move,move posts,delete,add,post,posts,batch update,bulk edit,mass update,mass edit
 Requires at least: 3.0
 Tested up to: 3.8
 Stable tag: 1.0
 Plugin URI: http://www.walchum.info/private/blog/batchmove/
-Description: Batch plugin.
-Author: CS Walchum.net
+Description: Batch move posts/categories plugin.
+Author: CS ABS-Hosting.nl / walchum.net
 Version: 1.1
 Author URI: http://www.walchum.info/private/
 Donate link: http://www.walchum.info/private/blog/batchmove/
